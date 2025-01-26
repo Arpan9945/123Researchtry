@@ -3,4 +3,4 @@ install.packages('dplyr')
 
 library(dplyr)
 
-data <- 
+data <- data.frame(a = 1:5)
