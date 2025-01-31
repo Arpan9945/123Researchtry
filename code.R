@@ -85,7 +85,8 @@ ggplot(strong_son_long, aes(x = year, y = values, colour = `Country Name`, group
   geom_point() +
   facet_wrap(~ `Country Name`, scales = "free_y")
 
-  scale_colour_manual(values = c("blue", "green"), labels = c("Fertility Rate", "Labor Force Participation")) +  # Custom colors
+  scale_colour_manual(values = c("blue", "gre
+                                 en"), labels = c("Fertility Rate", "Labor Force Participation")) +  # Custom colors
   labs(title = "Fertility Rate and Labor Force Participation Over Time", 
        x = "Year", 
        y = "Value") +
@@ -93,6 +94,7 @@ ggplot(strong_son_long, aes(x = year, y = values, colour = `Country Name`, group
   theme(legend.position = "top")
 
 
+  
 
 
 
